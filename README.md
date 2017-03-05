@@ -180,13 +180,6 @@ String str = "tim,kerry,timmy,camden";
 String[] results = str.split(",");
 ```
 
-#### making a string uppercase and lowercase:
-
-```
-String strUpper = str1.toUpperCase();
-String strUpper = str1.toUpperCase();
-```
-
 ## working with data structures
 
 #### resizing an array:
