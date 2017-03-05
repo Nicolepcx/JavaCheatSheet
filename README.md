@@ -173,7 +173,7 @@ str1.trim(); //asdfsdf
 str1.replace(" ","");
 ```
 
-#### parsing a comma seperated string:
+#### parsing a comma separated string:
 
 ```
 String str = "tim,kerry,timmy,camden";
