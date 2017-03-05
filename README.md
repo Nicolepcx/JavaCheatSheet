@@ -63,6 +63,7 @@
 #### Java IDE comparison:
 
 [![Ekran Resmi 2017-03-04 11.02.18.png](https://s18.postimg.org/4pba52mgp/Ekran_Resmi_2017_03_04_11_02_18.png)](https://postimg.org/image/7w5top6wl/)
+yes I took this from Wikipedia
 
 I recommend [IntelliJ IDEA](https://www.jetbrains.com/idea/) it's free for [students](https://www.jetbrains.com/student/).
 
