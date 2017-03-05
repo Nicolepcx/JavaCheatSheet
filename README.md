@@ -443,6 +443,11 @@ String pattern = "\\d$"; //any single digit
 
 ![alt tag](https://s3.postimg.org/7ihyxdvar/Ekran_Resmi_2017_03_04_10_03_48.png)
 
+* byte: 8bits, Byte
+* short: 16bits, Short
+* long: 64bits, Long
+* float: 32bits, Float
+
 #### checking whether a string is valid number:
 
 ``` 
