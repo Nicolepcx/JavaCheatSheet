@@ -1,5 +1,36 @@
 # General
 * Find the most frequent integer in an array
+```
+public class Main {
+
+  public static void main(String[] args) {
+
+    int[] array = new int[] {3, 4, 3, 1, 456, 324, 3}; //our array
+    System.out.println(getPopularElement(array));
+  }
+
+  private static int getPopularElement(int[] a) {
+    int count = 1, tempCount; //counter for popular int in array, temporary counter
+    int popular = a[0]; //value of popular int
+    int temp; //temporary value for popular int
+    for (int i = 0; i < (a.length - 1); i++) {
+      temp = a[i];
+      tempCount = 0;
+      for (int j = 1; j < a.length; j++) {
+        if (temp == a[j]) {
+          tempCount++;
+        }
+      }
+      if (tempCount > count) {
+        popular = temp;
+        count = tempCount;
+      }
+    }
+    return popular;
+  }
+}
+
+```
 * Find pairs in an integer array whose sum is equal to 10 (bonus: do it in linear time)
 * Given 2 integer arrays, determine of the 2nd array is a rotated version of the 1st array. Ex. Original Array A={1,2,3,5,6,7,8} Rotated Array B={5,6,7,8,1,2,3}
 * Write fibbonaci iteratively and recursively (bonus: use dynamic programming)
