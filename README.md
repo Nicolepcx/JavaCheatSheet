@@ -276,7 +276,7 @@ mCal.setTime(mDate);
 #### converting calendar to date:
 ```
 Calendar mCal = Calendar.getInstance();
-Date mDate = mDate.getTime();
+Date mDate = mCal.getTime();
 ```
 
 #### parsing Strings into dates:
